@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hap11"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#342843"
+        android:drawableLeft="@drawable/xin1"
+        android:hint="许愿吧"
+        android:textScaleX="1" />
+
+        <Button
+            android:id="@+id/red1"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#783422"
+            android:text="实现愿望"
+            android:textColor="#9fff88" />
+
+</LinearLayout>

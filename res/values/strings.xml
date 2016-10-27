@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生日快乐</string>
+    <string name="hello_world">最 美 丽 的 日 子 里 祝 福 你 生 日 快 乐   ！ 天  天  开  心 快 乐 的 你 很 美 丽     ！ </string>
+    <string name="textb">Happy Birthday ！ 衷心祝福你生日快乐！ 羊咩儿要每天都开心快乐哦~羊咩儿要坚强~不要活在黑屋子里，世界可以因你更精彩美丽</string>
+    <string name="title_activity_second">Happy Birthday To You</string>
+    <string name="btn2">Happy Birthday</string>
+    <string name="btn1">生日快乐</string>
+    <string name ="bt">生日快乐，愿羊咩儿永远开心快乐</string>
+    <string name = "bt3">只愿开心与快乐永远伴随你。最美好的也恰是你每天开心快乐</string>
+    <string name = "bt4">伴着开心与快乐去许愿吧</string>
+    <string name = "bt5">此刻生日的开心快乐的你最美丽</string>
+    <string name = "xu">许下你最美好的愿望</string>
+</resources>

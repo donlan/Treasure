@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hap9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Thallo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#f85030"
+        android:textSize="30sp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textStyle="italic" />
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.64" >
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#788543"
+            android:text="@string/btn2" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:background="#289754"
+            android:textColor="#ffff00"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:text="@string/btn1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
